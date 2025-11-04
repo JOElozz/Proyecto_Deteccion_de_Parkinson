@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1Cargar el audio
-audio_path = "AH_064F_7AB034C9-72E4-438B-A9B3-AD7FDA1596C5.wav"
+audio_path = "./backend/dataset/HC_AH/AH_064F_7AB034C9-72E4-438B-A9B3-AD7FDA1596C5.wav"
 y, sr = librosa.load(audio_path, sr=16000)  # sr = sample rate
 
 # Calcular el espectrograma de Mel
